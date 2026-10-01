@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="NIDEAL — accompagnement périnatal à Vannes et alentours, et en visio. Grossesse, allaitement, bébé, post-partum et bien-être.">
+<title>NIDEAL — Accompagnement périnatal</title>
+<style>
+:root{
+  --cream:#fbf6f0; --rose:#ead6d2; --pink:#d9b8b4; --sage:#c9d3c4;
+  --brown:#604f49; --dark:#403936; --white:#fffdfb;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;background:var(--cream);color:var(--dark);line-height:1.7}
+a{color:inherit;text-decoration:none}
+.nav{position:sticky;top:0;z-index:10;background:rgba(251,246,240,.94);backdrop-filter:blur(10px);border-bottom:1px solid #eadfd8}
+.nav-inner{max-width:1100px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:1.65rem;letter-spacing:.12em;font-weight:bold}.logo span{font-size:.65rem;display:block;letter-spacing:.2em;font-weight:normal;text-align:center;margin-top:-7px}
+nav{display:flex;gap:18px;font-family:Arial,sans-serif;font-size:.88rem;flex-wrap:wrap;justify-content:flex-end}
+nav a:hover{color:#9d7771}
+.hero{max-width:1100px;margin:auto;padding:85px 22px 70px;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+.kicker{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:.75rem;color:#9d7771}
+h1{font-size:clamp(2.8rem,7vw,5.5rem);line-height:.98;margin:15px 0 25px;font-weight:500}
+h2{font-size:2.2rem;line-height:1.1;font-weight:500;margin:0 0 16px}
+.hero p{font-size:1.12rem;max-width:650px}
+.btn{display:inline-block;background:var(--brown);color:white;padding:13px 22px;border-radius:30px;font-family:Arial,sans-serif;font-size:.9rem;margin-top:14px}
+.btn.alt{background:transparent;color:var(--brown);border:1px solid var(--brown);margin-left:8px}
+.cocoon{min-height:410px;border-radius:48% 52% 46% 54% / 45% 42% 58% 55%;background:linear-gradient(145deg,#ead7d2,#d8c7bd 55%,#cbd5c6);display:flex;align-items:center;justify-content:center;box-shadow:0 20px 50px rgba(80,60,55,.10)}
+.eggs{font-size:4rem;letter-spacing:-.35em;transform:rotate(-8deg);margin-right:15px}.cocoon p{font-size:1.1rem;text-align:center;max-width:170px}
+.section{padding:80px 22px}.section.altbg{background:#f1e8e2}
+.container{max-width:1100px;margin:auto}
+.center{text-align:center}.intro{max-width:720px;margin:0 auto 40px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--white);padding:28px;border-radius:25px;border:1px solid #eadfd8;min-height:190px}
+.card .icon{font-size:2rem}.card h3{margin:10px 0 6px;font-size:1.35rem;font-weight:500}
+.pillars{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:35px}
+.pillar{padding:30px;border-radius:25px;background:rgba(255,255,255,.6);border:1px solid #e6d9d2}
+.pillar ul{padding-left:20px}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center}
+.quote{font-size:1.5rem;font-style:italic;color:#725c56}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:start}
+.contact-box{background:var(--white);border-radius:28px;padding:30px;border:1px solid #eadfd8}
+label{font-family:Arial,sans-serif;font-size:.8rem;display:block;margin:12px 0 5px}
+input,textarea{width:100%;padding:12px;border:1px solid #dccdc6;border-radius:12px;background:#fff;font:inherit}
+textarea{min-height:120px;resize:vertical}
+footer{padding:35px 22px;text-align:center;font-family:Arial,sans-serif;font-size:.78rem;color:#766660;border-top:1px solid #e5d9d2}
+@media(max-width:800px){
+ .hero,.about,.contact{grid-template-columns:1fr}.hero{padding-top:55px}.cocoon{min-height:290px}
+ .cards{grid-template-columns:1fr}.pillars{grid-template-columns:1fr}nav{display:none}
+}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#accueil">NIDÉAL<span>accompagnement périnatal</span></a>
+    <nav>
+      <a href="#accompagnement">Accompagnement</a><a href="#a-propos">À propos</a>
+      <a href="#ressources">Ressources</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div>
+    <div class="kicker">Vannes & alentours · Visio</div>
+    <h1>Un cocon pour vivre pleinement votre maternité.</h1>
+    <p>NIDEAL vous accompagne avec douceur et écoute pendant la grossesse, l’arrivée de bébé, l’allaitement et le post-partum.</p>
+    <a class="btn" href="#contact">Prendre contact</a>
+    <a class="btn alt" href="#accompagnement">Découvrir NIDEAL</a>
+  </div>
+  <div class="cocoon"><div class="eggs">🥚🥚</div><p>Écouter · Informer · Soutenir<br><small>sans jugement, à votre rythme</small></p></div>
+</section>
+
+<section class="section altbg" id="accompagnement">
+<div class="container">
+  <div class="center intro"><div class="kicker">Mon accompagnement</div><h2>Vous n'avez pas à tout porter seule.</h2>
+  <p>Un espace bienveillant pour déposer vos questions, préparer les grands changements et prendre soin de vous.</p></div>
+  <div class="cards">
+    <article class="card"><div class="icon">🌿</div><h3>Grossesse</h3><p>Échanges, préparation, bien-être et soutien pour traverser cette période avec plus de sérénité.</p></article>
+    <article class="card"><div class="icon">🤱</div><h3>Allaitement</h3><p>Informations pratiques, écoute et soutien autour du démarrage et du quotidien de l'allaitement.</p></article>
+    <article class="card"><div class="icon">🧸</div><h3>Bébé</h3><p>Sommeil, rythmes, quotidien avec bébé et repères simples pour les premiers mois.</p></article>
+    <article class="card"><div class="icon">🫶</div><h3>Post-partum</h3><p>Un temps pour vous aussi : émotions, organisation, récupération et adaptation à cette nouvelle vie.</p></article>
+    <article class="card"><div class="icon">🌸</div><h3>Bien-être</h3><p>Respiration, relaxation, conseils bien-être et petits rituels pour prendre soin de vous.</p></article>
+    <article class="card"><div class="icon">💬</div><h3>Écoute</h3><p>Un espace sans jugement où vous pouvez simplement parler, poser vos questions et être entendue.</p></article>
+  </div>
+</div>
+</section>
+
+<section class="section" id="a-propos">
+<div class="container about">
+  <div class="cocoon" style="min-height:300px"><div class="eggs">🥚🥚</div></div>
+  <div><div class="kicker">À propos de NIDEAL</div><h2>Un accompagnement humain, doux et personnalisé.</h2>
+  <p>NIDEAL est pensé comme un véritable petit nid : un espace où vous pouvez ralentir, vous informer et vous sentir soutenue à chaque étape.</p>
+  <p class="quote">« Parce que chaque maternité est unique, votre accompagnement devrait l'être aussi. »</p>
+  <p><strong>Zone :</strong> Vannes et alentours · consultations possibles en visio</p></div>
+</div>
+</section>
+
+<section class="section altbg" id="ressources">
+<div class="container">
+  <div class="center intro"><div class="kicker">Le coin NIDEAL</div><h2>Des ressources pour votre quotidien.</h2>
+  <p>Retrouvez bientôt ici les guides, conseils et contenus NIDEAL autour de la maternité.</p></div>
+  <div class="pillars">
+    <div class="pillar"><h3>🤍 Grossesse & naissance</h3><p>Préparer l'arrivée de bébé, mieux comprendre son corps et faire des choix éclairés.</p></div>
+    <div class="pillar"><h3>🌙 Bébé & post-partum</h3><p>Des repères simples sur le sommeil, le quotidien, l'organisation et le bien-être parental.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<div class="container contact">
+  <div><div class="kicker">Contact</div><h2>Parlons de votre projet.</h2>
+  <p>Une question ou envie d'échanger avant un accompagnement ? Écrivez-moi, je vous répondrai avec plaisir.</p>
+  <p><strong>📍 Vannes et alentours</strong><br>💻 Visio possible</p>
+  <p><strong>Instagram :</strong> @nideal</p></div>
+  <div class="contact-box">
+    <form action="mailto:contact@nideal.fr" method="post" enctype="text/plain">
+      <label for="name">Prénom</label><input id="name" name="Prénom" required>
+      <label for="email">E-mail</label><input id="email" type="email" name="E-mail" required>
+      <label for="message">Votre message</label><textarea id="message" name="Message" required></textarea>
+      <button class="btn" type="submit" style="border:0;cursor:pointer">Envoyer</button>
+    </form>
+  </div>
+</div>
+</section>
+</main>
+<footer>© 2026 NIDEAL · Accompagnement périnatal · Vannes & alentours · Visio</footer>
+</body>
+</html>
